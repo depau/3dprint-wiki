@@ -10,11 +10,9 @@ nav_order: 3
 
 A list of commands that can be processed by the motherboard.
 
-*Generic Gcode commands list:*
-https://www.reprap.org/wiki/G-code
+[Generic Gcode commands list](https://www.reprap.org/wiki/G-code)
 
-*Klipper Gcode commands list:*
-https://www.klipper3d.org/G-Codes.html
+[Klipper Gcode commands list](https://www.klipper3d.org/G-Codes.html)
 
 
 ## .stl, .obj
