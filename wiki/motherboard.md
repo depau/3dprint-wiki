@@ -4,13 +4,13 @@ title: Motherboard
 nav_order: 2
 ---
 
-# `#motherboard`
+# Motherboard
 
 the microcontroller and the stepper drivers are installed on this small board: they can communicate through the firmware.
 It is needed to translate the commands listed in a '.gcode' file into movements
 
 
-### `#drivers`
+## drivers
 
 The small controllers called 'stepper drivers' are installed on the motherboard.
 This particular controller manages the input current and feeds the output to the motor in the right way; so the driver can manage the full-step and the micro-step of the motor and let it afford the precision usually needed from it.
