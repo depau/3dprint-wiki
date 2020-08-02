@@ -2,8 +2,8 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="/mstile-150x150.png?v=kPv88naY70"/>
-            <TileColor>#00a300</TileColor>
+            <square150x150logo src="3dprint-wiki/assets/icons/mstile-150x150.png?v=rMJ44EAwdo"/>
+            <TileColor>#ceffce</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
