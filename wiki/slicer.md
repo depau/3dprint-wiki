@@ -4,7 +4,7 @@ title: Slicer
 nav_order: 2
 ---
 
-# Page title
+# Slicer
 
 "Slicer" is the generical name for the softwares used to convert a 3D model to a ".gcode" file.
 
