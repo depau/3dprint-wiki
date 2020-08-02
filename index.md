@@ -28,6 +28,9 @@ On the website you will find a "Edit this page on GitHub" button around the bott
 
 In the wiki folder, click "Add file", "Create new file".
 
+The file name ends up in the URL: it should be something like `page-name.md`, the URL
+will be `/wiki/page-name`.
+
 Paste and adjust the following content at the beginning of the file to set the
 page layout and the title, then add the content after that.
 
