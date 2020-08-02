@@ -12,6 +12,9 @@ https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
 
 All pages are under the [`/wiki`](https://github.com/Depau/3dprint-wiki/tree/master/wiki) folder.
 
+You should check out the [Kramdown Markdown reference](https://kramdown.gettalong.org/quickref.html) to
+learn how to write markdown pages that work well on the website.
+
 ### Edit an existing page
 
 Just open the page file on GitHub and click the "pencil" icon to edit it.
