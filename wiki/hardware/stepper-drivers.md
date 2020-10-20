@@ -5,36 +5,50 @@ parent: Hardware
 nav_order: 2
 ---
 
-## Stepper drivers
+# Stepper drivers
 
 The small controllers called 'stepper drivers' are installed on the motherboard.
+
 This particular controller manages the input current and feeds the output to the motor in the right way; so the driver can manage the full-step and the micro-step of the motor and let it afford the precision usually needed from it.
 
 The most common drivers that can be found on a 3D printer are listed below:
 
 
-*A4988:*
-the most common driver, can be found on the majority of chinese kits.
+## A4988 (Pololu)
+
+The most common driver, can be found on the majority of chinese kits. Used since the beginning of 3D printing and the RepRap project, it also gave name to the RAMPS board (RepRap Arduino Mega Pololu Shield).
+
+They offer the baseline performance.
+
+## DRV8825
+
+~~You don't want this driver for your printer.~~ [note by Depau: can you explain why?]
+
+Usually more expensive than Pololus, the DRV8825 drivers offer a wider range of microstep capabilities and are allegedly quieter (they're actually not).
+
+## LV8729
+
+This driver may run better than a4988, but worse than a TMC, it is often used for the feeder stepper motor. [Depau: but why do they?]
 
 
-*DRV8825:*
-you don't want this driver for your printer.
-
-*LV8729:*
-this driver may run better than a4988, but worse than a TMC, it is often used for the feeder stepper motor.
-
-
-**Trinamic**
+## Trinamic (TMCxxxx)
 
 This kind of stepper driver is often researched because of the high control and current it can provide to the stepper motor, resulting in precision and torque.
-Extra functions are provided by this drivers, first of all the stealthchop mode, supported by all Trinamic drivers.
-They usually provide the possibility to be installed in multiple ways, such as UART or SPI (*note:* these configurations are required for extra functions, although also in standalone mode, this kind of driver can already work better than a A4988)
 
-*TMC2130:*
-maybe a little outdated, but these were the first trinamic driver with stallguard support.
+Extra functionality is provided by these drivers, first of all the StealthChop (quiet) mode, supported by all Trinamic drivers.
 
-*TMC2208:*
-this driver doesn't support stallguard, but can support more current tham TMC2130, so more current can be given to the stepper motor, being useful in spreadcycle mode.
+When used as a drop-in replacement for a Pololu driver, a TMC driver comes with a set of default settings that will mostly work for your printer (you still need to tune the motor current).
 
-*TMC 2209:*
-the last generation of Trinamic drivers: supports stallguard and spreadcycle mode.
+However, when configured over UART or SPI, they offer advanced functionality such as sensorless homing (the motor is the endstop) and the StealtChop (quiet) / SpreadCycle (noisier but with higher torque) thresholds.
+
+### TMC2130
+
+Maybe a little outdated, but these were the first Trinamic driver with StallGuard support.
+
+### TMC2208
+
+This driver doesn't support StallGuard, but can support more current tham TMC2130, so more current can be given to the stepper motor, being useful in SpreadCycle mode.
+
+### TMC2209
+
+The last generation of Trinamic drivers: supports StallGuard and SpreadCycle modes.
