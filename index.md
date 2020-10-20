@@ -41,11 +41,14 @@ page layout and the title, then add the content after that.
 ---
 layout: default
 title: Page title
-nav_order: 2
 ---
 
 # Page title
 ```
+
+### Navigation
+
+Documentation on the site navigation can be found [here](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/#main-navigation).
 
 ### Uploading pictures
 
