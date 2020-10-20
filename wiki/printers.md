@@ -13,6 +13,7 @@ Below is a list of printers at various price points that are generally considere
 
 ## Under $200 USD
 - [Anet A8](https://www.anet3d.com/product/most-popular-anet-a8-diy-fdm-3d-printer/) [220 x 220 x 240 build] (i3 cartesian, $179) [[review]](https://)
+  - Note! The Anet A8 is known for having little to no safety features out of the box. If you wanna get one, we advise you replace the stock firmware AT THE VERY LEAST, optionally also replace the board and the power supply unit.
 - [Anycubic Mega Zero](https://www.anycubic.com/products/mega-zero) [220 x 220 x 250 build] (i3 cartesian, $179) [[review]](https://)
 
 ## Under $300 USD
