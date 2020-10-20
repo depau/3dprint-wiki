@@ -1,13 +1,15 @@
 ---
 layout: default
-title: 3D printers
+title: 3D printers (FDM)
 nav_order: 2
 ---
 
-# 3D printers
+# 3D printers (FDM)
 
 
 Below is a list of printers at various price points that are generally considered great for ther price.
+
+The printers listed below are FDM printers - i.e. they work with a spool of filament. If you're interested in resin printers, see the [resin printers]({{ site.base_url }}/printers-resin/) page.
 
 *Note: all measurements are in millimeters (mm). All prices are in USD$.*
 
@@ -19,8 +21,6 @@ Below is a list of printers at various price points that are generally considere
 ## Under $300 USD
 - [Monoprice Maker Select Plus](https://www.monoprice.com/product?p_id=21865) [200 x 200 x 180 build] (i3 cartesian, $249) [[review]](https://)
 - [Creality Ender 3 V2](https://www.creality3dofficial.com/products/ender-3-v2-3d-printer) [220 x 220 x 250 build] (i3 cartesian, $269) [[review]](https://)
-- [Elegoo Mars](https://aliexpress.com/item/33029403819.html) [120 x 68 x 155 build] (resin SLA, $239) [[review]](https://)
-
 
 ## Under $400 USD
 - [Prusa Mini](https://shop.prusa3d.com/en/3d-printers/994-original-prusa-mini.html) [180 x 180 x 180 build] (i3 cartesian, $349) [[review]](https://)
@@ -28,7 +28,6 @@ Below is a list of printers at various price points that are generally considere
 - [Anycubic Mega X](https://www.anycubic.com/collections/anycubic-mega-3d-printers/products/mega-x) [300 x 300 x 305 build] (i3 cartesian, $399) [[review]](https://)
 - [Monoprice Voxel](https://www.monoprice.com/product?p_id=33820) [150 x 150 x 150 build] (quadrap cartesian, $399) [[review]](https://)
 - [Creality Ender 5 Pro](https://www.creality3dofficial.com/products/ender-5-pro-3d-printer) [220 x 220 x 300 build] (quadrap cartesian, $399) [[review]](https://)
-- [Elegoo Saturn](https://www.elegoosaturn.com/products/elegoo-saturn-8-9-inch-4k-uv-lcd-3d-printer) [192 x 120 x 200 build] (resin SLA, $400) [[review]](https://)
 
 ## Under $600 USD
 - [Creality CR-6 SE](https://www.creality3dofficial.com/products/creality-cr-6-se-3d-printer) [235 x 235 x 250 build] (i3 cartesian, $429) [[review]](https://)
