@@ -12,14 +12,14 @@ The most common type of 3D printer out there. FDM is a 3D printing technique whe
 
 There are a few motion types that fall under FDM.
 
-[Wikipedia](https://en.wikipedia.org/wiki/Fused_filament_fabrication)
+[{% include wiki %}](https://en.wikipedia.org/wiki/Fused_filament_fabrication)
 
 
 ## SLA _(Stereolithography)_
 
 SLA printers use a laser to polymerize a photosensitive resin. They provide sharp details, at the cost of longer print times, comparable to FDM printers, since the laser has to follow a path to cover the whole layer.
 
-[Wikipedia](https://en.wikipedia.org/wiki/Stereolithography)
+[{% include wiki %}](https://en.wikipedia.org/wiki/Stereolithography)
 
 ## DLP _(Digital Light Processing)_
 
@@ -35,5 +35,5 @@ A subset of DLP printers is LCD-based printers. Instead of using a projector, LC
 
 SLS printers are usually very expensive and used in industrial contexts. Like SLA printers they use a laser, but instead of polymerizing a resin, the laser is used to melt powder.
 
-[Wikipedia](https://en.wikipedia.org/wiki/Selective_laser_sintering)
+[{% include wiki %}](https://en.wikipedia.org/wiki/Selective_laser_sintering)
 
