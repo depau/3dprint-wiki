@@ -1,6 +1,7 @@
 ---
 layout: default
-title: 3D printers (Resin)
+title: Resin
+parent: 3D printers
 nav_order: 2
 ---
 
