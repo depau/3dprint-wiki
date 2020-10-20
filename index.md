@@ -49,7 +49,7 @@ like this. You can also set the programming language.
 2. a numbered list
 
 [External link text](https://some.website)
-[Internal link text]({{ '/wiki/software/slicer' | absolute_url }})
+{% raw %}[Internal link text]({{ '/wiki/software/slicer' | absolute_url }}){% endraw %}
 
 ![External image description](https://some.site/picture.png)
 
