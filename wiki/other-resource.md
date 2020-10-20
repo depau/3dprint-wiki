@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Other resources
-nav_order: 2
+nav_order: 20
 ---
 
 # Other resources

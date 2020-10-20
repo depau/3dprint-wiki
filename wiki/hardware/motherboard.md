@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Motherboard
+parent: Hardware
 nav_order: 2
 ---
 

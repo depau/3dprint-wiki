@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Business FAQ
-nav_order: 2
+title: Business/Shop FAQ
+nav_order: 19
 ---
 
 

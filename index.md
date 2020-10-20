@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-nav_order: 1
+nav_order: 0
 description: "3D printing Wiki"
 permalink: /
 last_modified_date: 2020-07-31T17:54:08+0000

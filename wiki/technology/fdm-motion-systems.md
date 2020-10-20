@@ -1,6 +1,7 @@
 ---
 layout: default
 title: FDM motion systems
+parent: Technologies
 nav_order: 2
 ---
 

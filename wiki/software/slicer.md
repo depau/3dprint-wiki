@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Slicer
+title: Slicers
+parent: Software
 nav_order: 2
 ---
 
