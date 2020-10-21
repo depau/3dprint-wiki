@@ -13,12 +13,21 @@ Feel free to add pages or update content, edit the files on GitHub and send a pu
 
 The content is licenses under the [Creative Commons CC0 license](https://github.com/Depau/3dprint-wiki/blob/master/LICENSE).
 
+## About this wiki
+
+This wiki aims to be a quick source of information for 3D printer users and in particular our Telegram group.
+
+It does not aim to replace or compete with other great sources of information such as RepRap.org or official documentation websites, but rather be a "quick instruction manual"/FAQ site for the questions that come up most frequently in our Telegram group. For all the details, links to more extensive documentations should be provided.
+
+We also provide a list of suggested printers for different price ranges. Note that if a printer is not listed it doesn't necessarily mean it's crap! Actually, we encourage users to add their own content, and note if a particular model has some well-known flaws (such as the automatic house ignition feature found in the Anet A8).
+
+We do not accept paid referral links on this website or in the printer lists. This is a place for finding information, **no advertisements are allowed**.
 
 ## Contributing content
 
 All pages are under the [`/wiki`](https://github.com/Depau/3dprint-wiki/tree/master/wiki) folder.
 
-You should check out the [Kramdown Markdown reference](https://kramdown.gettalong.org/quickref.html) to
+You should check out the [Kramdown Markdown reference](https://kramdown.gettalong.org/quickref.html) and the [Just the Docs documentation](https://pmarsceill.github.io/just-the-docs/) to
 learn how to write markdown pages that work well on the website.
 
 
@@ -91,6 +100,8 @@ title: Page title
 ```
 
 ### Navigation
+
+Adding new categories is not possible on the web-based GitHub interface. You need to use Git on your computer. If you need help you can ask @depauh in the Telegram group to create it for you.
 
 Documentation on the site navigation can be found [here](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/#main-navigation).
 
