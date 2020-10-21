@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Other resources
 nav_order: 20
 ---

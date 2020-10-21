@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Slicers
 parent: Software
 nav_order: 2

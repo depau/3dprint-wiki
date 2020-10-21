@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Firmware
 parent: Software
 nav_order: 3

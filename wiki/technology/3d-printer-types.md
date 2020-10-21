@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: 3D printer types
 parent: Technologies
 nav_order: 2

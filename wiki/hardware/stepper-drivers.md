@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Stepper drivers
 parent: Hardware
 nav_order: 2

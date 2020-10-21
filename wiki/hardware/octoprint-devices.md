@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Devices for OctoPrint
 parent: Hardware
 nav_order: 2

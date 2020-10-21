@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Business/Shop FAQ
 nav_order: 19
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: FDM/FFF
 parent: 3D printers
 nav_order: 2

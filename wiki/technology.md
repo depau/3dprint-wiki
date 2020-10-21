@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_nocomments
 title: Technologies
 has_children: true
 nav_order: 2

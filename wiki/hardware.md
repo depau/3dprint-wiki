@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_nocomments
 title: Hardware
 has_children: true
 nav_order: 2

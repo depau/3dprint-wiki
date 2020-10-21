@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Motherboard
 parent: Hardware
 nav_order: 2

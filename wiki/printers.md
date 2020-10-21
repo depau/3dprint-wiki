@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_nocomments
 title: 3D printers
 nav_order: 2
 has_children: true
