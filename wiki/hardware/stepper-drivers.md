@@ -54,6 +54,10 @@ When used as a drop-in replacement for a Pololu driver, a TMC driver comes with 
 
 However, when configured over UART or SPI, they offer advanced functionality. The trim-port can also be disabled in order to tune the current more precisely, programmatically.
 
+UART/SPI configuration is usually performed externally with additional hardware and software. However, some  boards like the SKR 1.3 and 1.4 have the internal wiring to allow for configuration through the firmware.
+
+The STALL pin (for StallGuard/sensorless homing) is also internally connected to the respective endstop pin. This is why the board manual suggests to clip it off if you're not planning to use the feature.
+
 ### TMC2130
 
 Maybe a little outdated, but these were the first Trinamic driver with StallGuard support.
@@ -73,7 +77,7 @@ This driver doesn't support StallGuard, but can support more current tham TMC213
 - UART configuration
 - StealtChop
 - SpreadCycle
-- ~~StallGuard not supported~~
+- ~~StallGuard~~ not supported
 - MicroPlyer
 - Phase current: 1.4A
 - Motor supply: 4.75V to 36V
