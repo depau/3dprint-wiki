@@ -56,9 +56,9 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "GitHub":
+  "<i class='fa fa-github'></i>&nbsp; GitHub":
     - "//github.com/Depau/3dprint-wiki"
-  "Telegram Group":
+  "<i class='fa fa-telegram'></i>&nbsp; Telegram Group":
     - "https://t.me/Print3D_Group"
 
 # Makes Aux links open in a new tab. Default is false
