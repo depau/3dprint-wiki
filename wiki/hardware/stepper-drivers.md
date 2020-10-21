@@ -31,24 +31,63 @@ Usually more expensive than Pololus, the DRV8825 drivers offer a wider range of 
 This driver may run better than a4988, but worse than a TMC, it is often used for the feeder stepper motor. [Depau: but why do they?]
 
 
-## Trinamic (TMCxxxx)
+## Trinamic-based (TMCxxxx)
 
 This kind of stepper driver is often researched because of the high control and current it can provide to the stepper motor, resulting in precision and torque.
 
-Extra functionality is provided by these drivers, first of all the StealthChop (quiet) mode, supported by all Trinamic drivers.
+Extra proprietary functionality is provided by these drivers, but not all of them support all features.
 
-When used as a drop-in replacement for a Pololu driver, a TMC driver comes with a set of default settings that will mostly work for your printer (you still need to tune the motor current).
+Here is a translation from "sales people English" to "normal people English" for the most common Trinamic features:
 
-However, when configured over UART or SPI, they offer advanced functionality such as sensorless homing (the motor is the endstop) and the StealtChop (quiet) / SpreadCycle (noisier but with higher torque) thresholds.
+- StealtChop: "Quiet mode", the motors run extremely quietly at low-ish speeds, while still providing very good torque.
+- SpreadCycle: "Noisier mode", the motors are noisier but they provide higher torque. Usually appropriate for higher speeds to prevent skipping steps.
+- StallGuard: Motor stall detection (sensorless homing). The driver can act as an endstop by pulling a pin low when a stall is detected. It needs tuning.
+- CoolStep: The motor current is adjusted dynamically based on feedback from the "StallGuard" circuitry, allowing cooler motor operation when the motor requires less torque.
+- MicroPlyer: Fancy name for their proprietary micro-stepping circuitry.
+
+Some drivers are allegedly resistant to shorts, in case you happen to work with screwdrivers nearby while your hands are shaking.
+
+The parameters for the features above can be configured using the additional UART, SPI or I²C configuration protocol (depending on the driver model).
+For example, you can tune the speed threshold at which the driver goes from StealtChop to SpreadCycle, as well as minimum/maximum current values for each mode (CoolStep)
+
+When used as a drop-in replacement for a Pololu driver, a TMC driver comes with a set of default thresholds that will mostly work for most printers. A trim-potentiometer is also provided like in regular steppers, and if enabled in the driver settings (it's usually enabled out of the box), the current can be tuned with the classic ceramic screwdriver.
+
+However, when configured over UART or SPI, they offer advanced functionality. The trim-port can also be disabled in order to tune the current more precisely, programmatically.
 
 ### TMC2130
 
 Maybe a little outdated, but these were the first Trinamic driver with StallGuard support.
 
+- SPI configuration
+- StealtChop
+- SpreadCycle
+- StallGuard / Stall detection / Sensorless homing
+- Phase current: 1.2A (QFN36 package), 1.4A (eTQFP48 package)
+- Motor supply: 4.75V to 46V
+- Snallest microstep: 1/256
+
 ### TMC2208
 
 This driver doesn't support StallGuard, but can support more current tham TMC2130, so more current can be given to the stepper motor, being useful in SpreadCycle mode.
 
+- UART configuration
+- StealtChop
+- SpreadCycle
+- ~~StallGuard not supported~~
+- MicroPlyer
+- Phase current: 1.4A
+- Motor supply: 4.75V to 36V
+- Snallest microstep: 1/256
+
 ### TMC2209
 
 The last generation of Trinamic drivers: supports StallGuard and SpreadCycle modes.
+
+- UART configuration
+- StallGuard / Stall detection / Sensorless homing
+- StealtChop
+- SpreadCycle
+- MicroPlyer
+- Phase current: 2.0A
+- Motor supply: 4.75V to 29V
+- Snallest microstep: 1/256
