@@ -20,6 +20,7 @@ The printers listed below are resin printers. If you're interested in FDM printe
 
 ## Under $300 USD
 - [Elegoo Mars](https://aliexpress.com/item/33029403819.html) [120 x 68 x 155 build] (resin LCD, $239) [[review]](https://)
+- [Elegoo Mars Pro](https://it.aliexpress.com/item/1005001566856805.html) [129 x 80 x 160 build] (resin LCD, $268)
 - [Anycubic Photon Mono](https://www.anycubic.com/collections/anycubic-photon-3d-printers/products/photon-mono-resin-3d-printer) [130 x 80 x 165 build] (resin monochrome LCD, $249)
 - [Anycubic Photon S](https://www.anycubic.com/collections/anycubic-photon-3d-printers/products/anycubic-photon-s) [115 x 65 x 165 build] (resin LCD, $299)
 
