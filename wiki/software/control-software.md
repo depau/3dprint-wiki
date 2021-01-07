@@ -3,6 +3,7 @@ layout: page
 title: Control software
 parent: Software
 nav_order: 3
+toc: true
 ---
 
 # Control software

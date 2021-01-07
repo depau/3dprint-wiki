@@ -3,11 +3,12 @@ layout: page
 title: Firmware
 parent: Software
 nav_order: 3
+toc: true
 ---
 
 # 3D printer firmware
 
-Here is a list of common firmware for 3D printer main boards.
+Here is a **non-exhaustive** list of common firmware for 3D printer main boards. Just because a firmware isn't listed here it doesn't mean it isn't good!
 
 Check out the [firmware category](https://www.reprap.org/wiki/Category:Firmware) on the [{% include reprap %}](https://www.reprap.org) for a more extensive list.
 

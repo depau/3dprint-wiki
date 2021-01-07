@@ -3,6 +3,7 @@ layout: page
 title: File types
 parent: Software
 nav_order: 3
+toc: true
 ---
 
 # File types

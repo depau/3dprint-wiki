@@ -3,6 +3,7 @@ layout: page
 title: Slicers
 parent: Software
 nav_order: 2
+toc: true
 ---
 
 # Slicers

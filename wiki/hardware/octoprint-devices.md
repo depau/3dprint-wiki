@@ -3,6 +3,7 @@ layout: page
 title: Devices for OctoPrint
 parent: Hardware
 nav_order: 2
+toc: true
 ---
 
 # Devices for OctoPrint

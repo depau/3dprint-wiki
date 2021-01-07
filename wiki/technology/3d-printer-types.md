@@ -3,6 +3,7 @@ layout: page
 title: 3D printer types
 parent: Technologies
 nav_order: 2
+toc: true
 ---
 
 # 3D printer technologies

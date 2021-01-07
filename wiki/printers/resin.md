@@ -3,12 +3,13 @@ layout: page
 title: Resin
 parent: 3D printers
 nav_order: 2
+toc: true
 ---
 
 # 3D printers (Resin)
 
 
-Below is a list of printers at various price points that are generally considered great for ther price.
+Below is a **non-exhaustive** list of printers at various price points that are generally considered great for ther price. Just because a printer isn't listed here it doesn't mean it's bad.
 
 The printers listed below are resin printers. If you're interested in FDM printers, see the [FDM printers]({{ site.base_url }}/printers/) page.
 

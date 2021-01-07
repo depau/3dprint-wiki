@@ -3,12 +3,13 @@ layout: page
 title: FDM/FFF
 parent: 3D printers
 nav_order: 2
+toc: true
 ---
 
 # 3D printers (FDM/FFF)
 
 
-Below is a list of printers at various price points that are generally considered great for ther price.
+Below is a **non-exhaustive** list of printers at various price points that are generally considered great for ther price. However, just because a printer isn't listed here it doesn't mean it's bad.
 
 The printers listed below are FDM printers - i.e. they work with a spool of filament. If you're interested in resin printers, see the [resin printers]({{ site.base_url }}/printers-resin/) page.
 
