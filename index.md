@@ -92,6 +92,7 @@ page layout and the title, then add the content after that.
 ---
 layout: page  # Use page_nocomments for the main category page
 title: Page title
+toc: true  # Or false, if you want to disable the Table of Contents
 #parent: Parent title if this is a sub-page, otherwise delete this line
 #has_children: true if this page has children, otherwise delete this line
 ---
