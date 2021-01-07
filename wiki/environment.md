@@ -27,10 +27,17 @@ In the CONAI (Italian national packing material consortium) 2018
 of the "General program of prevention and management of packing materials and packing material waste",
 PETG is listed within "not-selectable/recyclable packaging materials with the current state of technology".
 
-This suggests that PETG is **NOT** recyclable with plastic. Investigation is ongoing with AMSA (Milan recycling
-company) to know better about it.
+This suggests that PETG is **in general** not recyclable with plastic.
 
-Investigation is ongoing with AMSA (Milan).
+#### Milan, Italy (AMSA S.p.A.)
+
+After inquiry, they reported that 3D printer PETG scraps can be disposed of together with plastic waste.
+
+> [...]
+> 
+> i filamenti in PETG possono essere conferiti nel sacco della plastica
+> 
+> [...]
 
 ### PLA
 
@@ -40,20 +47,14 @@ recyclable.
 Furthermore, bio materials recycling facilities work differently and use different technologies to speed up the
 natural biodegradation, so as always check with your local company.
 
-{:.no_toc}
 #### Milan, Italy (AMSA S.p.A.)
 
-After inquiry they reported that 3D printer PLA scraps should be disposed of with organic waste.
+After inquiry, they reported that 3D printer PLA scraps should be disposed of with organic waste.
 
-> Gentile signor [redacted]
+> [...]
+>
 > i residui derivanti da stampe 3D in materiale PLA (acido polilattico, ossia bioplastica ottenuta da scarti di mais)
 > possono essere conferiti nel cassonetto dell'umido. 
->
-> Cordiali saluti
-
-> Servizio Clienti
-> Amsa S.p.A. – Gruppo A2A
-> Responsabile Customer Center
 
 
 ### ABS
@@ -61,7 +62,13 @@ After inquiry they reported that 3D printer PLA scraps should be disposed of wit
 ABS is technically recyclable. However, recycling companies may or may not be able to separate it from the other types of
 plastic. Therefore, you should check with your local company first before disposing of it.
 
-Investigation is ongoing with AMSA (Milan).
+#### Milan, Italy (AMSA S.p.A.)
+
+After inquiry, they reported that 3D printer ABS scraps must be disposed of together with non-recyclable waste:
+
+> [...]
+>
+> al contrario, quelli in ABS vanno smaltiti nel sacco dell'indifferenziato.
 
 
 ## DLP/SLA UV resins
@@ -75,11 +82,12 @@ Make sure you don't rinse off any liquid resin in the sink or in the environment
 Before disposing of resin residues, make sure they're fully cured: use a UV lamp or leave them under the sun for a few days
 (but make sure they don't fly away with the wind).
 
-The alcohol used for clean up can be cured with a UV lamp. Tests by @Depau showed that Elegoo curing and also wash&cure machines
-aren't powerful enough for it though.
+The alcohol used for cleaning can be cured with a UV lamp and then reused. Tests by @Depau showed that both Elegoo's curing (Mercury) 
+and wash&cure (Mercury Pro) machines aren't powerful enough for it though. Other curing machines were not tested (I got the damn lamp).
 
-Cure it for a few minutes until it becomes white, stir and cure again until it is all done. The residue will slowly drop to the
-bottom and the remaining alcohol can be poured out. The rest can be dried and disposed of.
+Cure it for a few minutes until it becomes white, stir and cure again, repeat until you see no difference after curing, then do it
+one last time. The residue will slowly drop to the bottom over a day and the remaining alcohol can be poured out, then filtered.
+The rest can be dried and disposed of.
 
 ----
 
@@ -91,7 +99,19 @@ are too long for recycling facilities).
 
 Investigation is ongoing with popular bio-resin sellers on the time of decomposition of their products.
 
-An inquiry was also made to AMSA on how to dispose of UV resins in Milan area.
+#### Milan, Italy (AMSA S.p.A.)
+
+After inquiry, the company reported that DLP/SLA UV resins must be disposed of as such:
+
+- Solid, fully cured resin (in small amounts): non-recyclable bin
+- Liquid, uncured resin: it can be brought to one of their "ricicleria" centers in the original container. They will take care of
+  it based on the toxycity level ("T" or "F") reported on the label
+
+> I residui di stampa in DLP e SLA, se in piccole quantità, possono essere smaltiti nel sacco dell'indifferenziato.
+>
+> Se la resina è ancora allo stato liquido, in ricicleria è possibile smaltire rifiuti e prodotti etichettati “T” e/o
+> “F” nei loro contenitori originali dove si evidenziano i simboli di tossicità o pericolosità.
+
 
 ## Energy
 
