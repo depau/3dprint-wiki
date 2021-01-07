@@ -2,11 +2,13 @@
 layout: default
 ---
 
+{% if page.toc %}
 <nav id="toc">
   <h2>Table of contents</h2>
   {{ content | toc_only }}
   <br/>
 </nav>
+{% endif %}
 
 <div class="content">
   {{ content | inject_anchors }}
