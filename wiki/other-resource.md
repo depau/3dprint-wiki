@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Other resources
-nav_order: 20
+nav_order: 99999
 ---
 
 # Other resources
