@@ -118,7 +118,7 @@ After inquiry, the company reported that DLP/SLA UV resins must be disposed of a
 Even if you can afford a higher electricity bill, using more energy than needed is totally unnecessary and avoidable.
 
 When possible, avoid using particularly old laptops or desktop computers as always-on OctoPrint machines, they use quite a lot
-of power and may cost extra 50€/year on your bill.
+of power and may cost extra 50€/year or more on your bill.
 
 If you want something that stays always-on, consider using a recent (> 2015) laptop or an ARM single-board computer. Or simply
 turn everything off when you're not using it. (see: [Devices for OctoPrint]({{ '/wiki/hardware/octoprint-devices/' | absolute_url }}))
