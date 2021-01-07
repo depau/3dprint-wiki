@@ -18,6 +18,38 @@
     margin-top: 0.5em;
   }
 
+  blockquote {
+  	background-color: rgba(183, 183, 183, 0.2);
+  	padding: 5px 20px;
+  	border-radius: 5px;
+    position: relative;
+
+    p {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      font-style: italic;
+    }
+
+    &::before, &::after{
+      position: absolute;
+      font-size: 5em;
+      opacity: 0.5;
+    }
+
+    &::before {
+      left: -15px;
+      top: -35px;
+      content: '“';
+
+    }
+
+    &::after {
+      right: -15px;
+      bottom: -90px;
+      content: '”';
+    }
+  }
+
   a {
     overflow: hidden;
     text-overflow: ellipsis;
