@@ -94,6 +94,12 @@ color_scheme: "dark"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-toc
+
+toc:
+  min_level: 2
+  no_toc_section_class:
+    - no_toc
 
 compress_html:
   clippings: all

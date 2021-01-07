@@ -2,8 +2,14 @@
 layout: default
 ---
 
+<nav id="toc">
+  <h2>Table of contents</h2>
+  {{ content | toc_only }}
+  <br/>
+</nav>
+
 <div class="content">
-  {{ content }}
+  {{ content | inject_anchors }}
 </div>
 
 <div class="comments">
