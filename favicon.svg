@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1536"
+   height="1536"
+   version="1.1"
+   id="svg58"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <svg:metadata
+     id="metadata64">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:defs
+     id="defs62" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="696"
+     id="namedview60"
+     showgrid="false"
+     inkscape:zoom="0.1624349"
+     inkscape:cx="430.76176"
+     inkscape:cy="887.31009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg58" />
+  <script>(function(){
+        const iconAirPlayAudio = &quot;moz-extension://896ec3c9-1af7-4eca-84da-00f6985bddf6/senders/media/overlay/AirPlay_Audio.svg&quot;;
+        const iconAirPlayVideo = &quot;moz-extension://896ec3c9-1af7-4eca-84da-00f6985bddf6/senders/media/overlay/AirPlay_Audio.svg&quot;;
+        const mediaOverlayTitle = &quot;Playing on X&quot;;
+        !function(e){var t={};function n(o){if(t[o])return t[o].exports;var r=t[o]={i:o,l:!1,exports:{}};return e[o].call(r.exports,r,r.exports,n),r.l=!0,r.exports}n.m=e,n.c=t,n.d=function(e,t,o){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:o})},n.r=function(e){&quot;undefined&quot;!=typeof Symbol&amp;&amp;Symbol.toStringTag&amp;&amp;Object.defineProperty(e,Symbol.toStringTag,{value:&quot;Module&quot;}),Object.defineProperty(e,&quot;__esModule&quot;,{value:!0})},n.t=function(e,t){if(1&amp;t&amp;&amp;(e=n(e)),8&amp;t)return e;if(4&amp;t&amp;&amp;&quot;object&quot;==typeof e&amp;&amp;e&amp;&amp;e.__esModule)return e;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,&quot;default&quot;,{enumerable:!0,value:e}),2&amp;t&amp;&amp;&quot;string&quot;!=typeof e)for(var r in e)n.d(o,r,function(t){return e[t]}.bind(null,r));return o},n.n=function(e){var t=e&amp;&amp;e.__esModule?function(){return e.default}:function(){return e};return n.d(t,&quot;a&quot;,t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p=&quot;&quot;,n(n.s=75)}({0:function(e,t,n){&quot;use strict&quot;;Object.defineProperty(t,&quot;__esModule&quot;,{value:!0});class o{constructor(e){this.prefix=e}log(e,t){const n=`${this.prefix} (Log): ${e}`;t?console.log(n,t):console.log(n)}info(e,t){const n=`${this.prefix} (Info): ${e}`;t?console.info(n,t):console.info(n)}error(e,t){const n=`${this.prefix} (Error): ${e}`;return t?console.error(n,t):console.error(n),new Error(n)}}t.Logger=o,t.default=new o(&quot;fx_cast&quot;)},75:function(e,t,n){&quot;use strict&quot;;var o=this&amp;&amp;this.__importDefault||function(e){return e&amp;&amp;e.__esModule?e:{default:e}};Object.defineProperty(t,&quot;__esModule&quot;,{value:!0});const r=o(n(0)),i=n(76),c=new WeakMap,a=Element.prototype.attachShadow;function l(e){if(!(e instanceof u))return c.get(e)}Element.prototype.attachShadow=function(e){const t=a.call(this,e);return c.set(this,t),t};const s=[HTMLMediaElement,HTMLVideoElement,HTMLAudioElement].flatMap(e=&gt;Object.getOwnPropertyNames(e.prototype)).concat([&quot;abort&quot;,&quot;canplay&quot;,&quot;canplaythrough&quot;,&quot;durationchange&quot;,&quot;emptied&quot;,&quot;encrypted&quot;,&quot;ended&quot;,&quot;error&quot;,&quot;interruptbegin&quot;,&quot;interruptend&quot;,&quot;loadeddata&quot;,&quot;loadedmetadata&quot;,&quot;loadstart&quot;,&quot;mozaudioavailable&quot;,&quot;pause&quot;,&quot;play&quot;,&quot;playing&quot;,&quot;progress&quot;,&quot;ratechange&quot;,&quot;seeked&quot;,&quot;seeking&quot;,&quot;stalled&quot;,&quot;suspend&quot;,&quot;timeupdate&quot;,&quot;volumechange&quot;,&quot;waiting&quot;].map(e=&gt;`on${e}`));class u extends HTMLElement{constructor(){super();const e=this.attachShadow({mode:&quot;closed&quot;}),{host:t}=e;let n;switch(this.constructor){case d:n=iconAirPlayAudio;break;case p:n=iconAirPlayVideo}e.innerHTML=`\n            &lt;style&gt;\n                :host {\n                    display: inline-flex;\n                    font: menu;\n                    position: relative;\n                }\n\n                :host[hidden],\n                .overlay[hidden] {\n                    display: none;\n                }\n\n                video {\n                    width: 100%;\n                }\n\n                .overlay {\n                    align-items: center;\n                    background-color: rgba(0, 0, 0, 0.85);\n                    color: white;\n                    display: flex;\n                    flex-direction: column;\n                    height: 100%;\n                    justify-content: center;\n                    left: 0;\n                    pointer-events: none;\n                    position: absolute;\n                    top: 0;\n                    width: 100%;\n                }\n                .overlay__icon {\n                    background-image: url(&quot;${n}&quot;);\n                    height: 125px;\n                    width: 125px;\n                }\n                .overlay__text {\n                    font-size: 18px;\n                }\n            &lt;/style&gt;\n\n            &lt;div class=&quot;overlay&quot; hidden&gt;\n                &lt;div class=&quot;overlay__icon&quot;&gt;&lt;/div&gt;\n                &lt;div class=&quot;overlay__text&quot;&gt;\n                    ${mediaOverlayTitle}\n                &lt;/div&gt;\n            &lt;/div&gt;\n        `;const o=f.call(document,&quot;video&quot;);for(const e of s)t.hasOwnProperty(e)&amp;&amp;(o[e]=t[e]);Object.defineProperties(t,i.clonePropsDescriptor(o,[&quot;attributes&quot;,&quot;setAttribute&quot;,&quot;removeAttribute&quot;,&quot;setAttribute&quot;,&quot;addEventListener&quot;,&quot;removeEventListener&quot;,&quot;hasEventListener&quot;,...s])),e.prepend(o)}}class d extends u{}class p extends u{set overlayHidden(e){const t=c.get(this);(null==t?void 0:t.querySelector(&quot;.overlay&quot;)).hidden=e}get overlayHidden(){const e=c.get(this);return(null==e?void 0:e.querySelector(&quot;.overlay&quot;)).hidden}}try{customElements.define(&quot;audio-player-element&quot;,d),customElements.define(&quot;video-player-element&quot;,p)}catch(e){e instanceof DOMException&amp;&amp;(e.code,DOMException.NOT_SUPPORTED_ERR)}const f=document.createElement,m=document.createElementNS;function y(e,t){const n=e.toLowerCase(),o=e.toUpperCase();if(&quot;audio&quot;===n||&quot;video&quot;===n){const e=f.call(document,`${n}-player-element`);return Object.defineProperties(e,{tagName:i.makeGetterDescriptor(o),nodeName:i.makeGetterDescriptor(o),localName:i.makeGetterDescriptor(n)}),e}return f.call(document,e,t)}function v(e,t,n){return e===document.namespaceURI?y(t,n):m.call(document,e,t,n)}function h(e){const t=document.createElement(e.tagName),n=c.get(t);if(n){for(const n of e.attributes)s.includes(n.name)?t.setAttribute(n.name,n.value):HTMLElement.prototype.setAttribute.call(t,n.name,n.value);for(const t of e.getElementsByTagName(&quot;source&quot;)){const e=n.querySelector(&quot;audio,video&quot;);if(!e)return void r.default.error(&quot;Failed to fetch internal video element!&quot;);e.appendChild(t.cloneNode())}e.replaceWith(t)}else r.default.error(&quot;Failed to fetch shadow root!&quot;)}Object.defineProperties(y,i.clonePropsDescriptor(f,[&quot;toString&quot;,&quot;toSource&quot;])),Object.defineProperties(v,i.clonePropsDescriptor(m,[&quot;toString&quot;,&quot;toSource&quot;])),Object.defineProperties(document,{createElement:i.makeValueDescriptor(y),createElementNS:i.makeValueDescriptor(v)}),document.addEventListener(&quot;DOMContentLoaded&quot;,()=&gt;{setTimeout(()=&gt;{const e=document.querySelectorAll(&quot;audio,video&quot;),t=function(e){const t=document.evaluate('//*[contains(name(), &quot;-&quot;)]',document,null,XPathResult.ORDERED_NODE_ITERATOR_TYPE),n=[];let o;for(;o=t.iterateNext();){const t=l(o);t&amp;&amp;n.push(...t.querySelectorAll(e))}return n}(&quot;audio,video&quot;);for(const n of[...e,...t])h(n)})})},76:function(e,t,n){&quot;use strict&quot;;function o(e,t){let n;for(;!n&amp;&amp;null!==e;)n=Object.getOwnPropertyDescriptor(e,t),n||(e=Object.getPrototypeOf(e));return n}function r(e,t){return&quot;function&quot;==typeof e.value?e.value=e.value.bind(t):(e.get&amp;&amp;(e.get=e.get.bind(t)),e.set&amp;&amp;(e.set=e.set.bind(t))),e}Object.defineProperty(t,&quot;__esModule&quot;,{value:!0}),t.getPropertyDescriptor=o,t.bindPropertyDescriptor=r,t.clonePropsDescriptor=function(e,t){return t.reduce((t,n)=&gt;{const i=o(e,n);return i&amp;&amp;(r(i,e),t[n]=i),t},{})},t.makeGetterDescriptor=function(e){return{enumerable:!0,configurable:!0,get:()=&gt;e}},t.makeValueDescriptor=function(e){return{enumerable:!0,configurable:!0,writable:!0,value:e}}}});
+    })();</script>
+  <svg:path
+     d="M 812.8046,1236.3478 1260.8503,992.02278 V 546.77746 L 812.8046,709.89408 Z M 768.00004,630.78602 1256.6498,452.96788 768.00004,275.14976 279.35021,452.96788 Z M 1350.4594,454.36803 v 537.65475 c 0,32.90352 -18.2019,63.00652 -46.9049,78.40812 l -492.8501,268.8275 c -13.30137,7.7007 -28.00286,11.201 -42.70436,11.201 -14.7015,0 -29.40299,-3.5003 -42.70436,-11.201 L 232.44543,1070.4309 c -28.70292,-15.4016 -46.90478,-45.5046 -46.90478,-78.40812 V 454.36803 c 0,-37.80385 23.80243,-71.40728 58.806,-84.00856 L 737.1969,191.14119 c 9.801,-3.50035 20.30207,-5.60057 30.80314,-5.60057 10.50107,0 21.00214,2.10022 30.80314,5.60057 l 492.85022,179.21828 c 35.0036,12.60128 58.806,46.20471 58.806,84.00856 z"
+     id="path56"
+     style="fill:#ceffce;stroke-width:0.700071;fill-opacity:1" />
+</svg:svg>

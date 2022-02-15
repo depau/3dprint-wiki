@@ -1,0 +1,392 @@
+{"0": {
+    "doc": "3D printer types",
+    "title": "3D printer technologies",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/3d-printer-types/#3d-printer-technologies",
+    "relUrl": "/wiki/technology/3d-printer-types/#3d-printer-technologies"
+  },"1": {
+    "doc": "3D printer types",
+    "title": "FDM (Fused Deposition Modelling) / FFF (Fused Filament Fabrication)",
+    "content": "The most common type of 3D printer out there. FDM is a 3D printing technique where material (usually a plastic filament) is melted layer by layer and fused together. There are a few motion types that fall under FDM. Wikipedia . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/3d-printer-types/#fdm-fused-deposition-modelling--fff-fused-filament-fabrication",
+    "relUrl": "/wiki/technology/3d-printer-types/#fdm-fused-deposition-modelling--fff-fused-filament-fabrication"
+  },"2": {
+    "doc": "3D printer types",
+    "title": "SLA (Stereolithography)",
+    "content": "SLA printers use a laser to polymerize a photosensitive resin. They provide sharp details, at the cost of longer print times, comparable to FDM printers, since the laser has to follow a path to cover the whole layer. Wikipedia . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/3d-printer-types/#sla-stereolithography",
+    "relUrl": "/wiki/technology/3d-printer-types/#sla-stereolithography"
+  },"3": {
+    "doc": "3D printer types",
+    "title": "DLP (Digital Light Processing)",
+    "content": "DLP is extremely similar to SLA, except DLP uses a projector to flash an image on the platform, opposed to a laser beam. The print time is much lower since the entire layer is exposed at once. LCD . A subset of DLP printers is LCD-based printers. Instead of using a projector, LCD printers have a LCD display that masks a UV lamp. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/3d-printer-types/#dlp-digital-light-processing",
+    "relUrl": "/wiki/technology/3d-printer-types/#dlp-digital-light-processing"
+  },"4": {
+    "doc": "3D printer types",
+    "title": "SLS (Selective Laser Sintering)",
+    "content": "SLS printers are usually very expensive and used in industrial contexts. Like SLA printers they use a laser, but instead of polymerizing a resin, the laser is used to melt powder. Wikipedia . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/3d-printer-types/#sls-selective-laser-sintering",
+    "relUrl": "/wiki/technology/3d-printer-types/#sls-selective-laser-sintering"
+  },"5": {
+    "doc": "3D printer types",
+    "title": "3D printer types",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/3d-printer-types/",
+    "relUrl": "/wiki/technology/3d-printer-types/"
+  },"6": {
+    "doc": "Business/Shop FAQ",
+    "title": "3D printing business/shop FAQ",
+    "content": "Want to start a 3D printing business? You think it’s gonna be easy? It’s not. Professional grade 3D printing requires time. You need to attend the print at all times to spot potential issues, charge your customers extra to account for electricity, material, cleaning, maintenance, plus all the time spent to reprint models when a print fails. Most customers will not like your prices, so your mielage my vary. Also, for the prices you will have to charge, customers are going to expect perfect prints, fast times. You need to have very good hardware (not shitty chinese kits, $1000+ printers), you need to have spare filaments for every color and material because you don’t want your customer to wait for your amazon package to arrive. If you really want that to be your business, you should definitely go for it, but you need to get good, reliable hardware and be very aware of how your time is spent, how your printer works, how to properly print models of all sorts of shapes and in general of all the difficulties of running an actual business. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/business/#3d-printing-businessshop-faq",
+    "relUrl": "/wiki/business/#3d-printing-businessshop-faq"
+  },"7": {
+    "doc": "Business/Shop FAQ",
+    "title": "Business/Shop FAQ",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/business/",
+    "relUrl": "/wiki/business/"
+  },"8": {
+    "doc": "Common issues",
+    "title": "Common issues",
+    "content": "To be written. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/troubleshooting/common-issues/",
+    "relUrl": "/wiki/troubleshooting/common-issues/"
+  },"9": {
+    "doc": "Control software",
+    "title": "Control software",
+    "content": "While many printers can work completely independently by reading G-Code files, most FDM printers also have a USB port that can be used to control them and run prints. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/control-software/",
+    "relUrl": "/wiki/software/control-software/"
+  },"10": {
+    "doc": "Control software",
+    "title": "OctoPrint   ",
+    "content": "License: open-source, GNU AGPL v3.0 . OctoPrint is the most widely used control software for FDM 3D printers. It shows a web-based interface, it allows you to start, control and monitor prints. It can also integrate with MJPEG-Streamer or with uStreamer to stream a video of the printer if you add a webcam to it. OctoPrint also provides pre-installed OctoPi images for Raspberry Pi boards . https://octoprint.org . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/control-software/#octoprint---",
+    "relUrl": "/wiki/software/control-software/#octoprint---"
+  },"11": {
+    "doc": "Control software",
+    "title": "Repetier Host   ",
+    "content": "License: . | up to version 0.91: open-source, Apache 2 | after version 0.91: proprietary, closed-source | . Repetier-Host is a control software for FDM printers and despite what the name might suggest, it works with most firmwares, including Marlin, though it supports more features when the printer is running Repetier-Firmware. It has integrated slicing support using Slic3r or Cura, and it features toolpath preview and full printer control. Unlike OctoPrint it is not intended to be used on headless machines or Single Board Computers, it runs on a regular computer which needs to stay on all the time while the printer is running. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/control-software/#repetier-host---",
+    "relUrl": "/wiki/software/control-software/#repetier-host---"
+  },"12": {
+    "doc": "Environment 🌱",
+    "title": "3D printing and the environment",
+    "content": "This page aims to collect information on how to make sure you handle correctly your 3D printer waste. If you can, please email your local recycling company and ask them how to dispose of your 3D printer waste. Report in our Telegram group and/or send a pull-request to the wiki. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/environment/#3d-printing-and-the-environment",
+    "relUrl": "/wiki/environment/#3d-printing-and-the-environment"
+  },"13": {
+    "doc": "Environment 🌱",
+    "title": "Important note",
+    "content": "Always check with your recycling company before disposing of 3D printer waste. Recycling plants are different and they use different technologies. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/environment/#important-note",
+    "relUrl": "/wiki/environment/#important-note"
+  },"14": {
+    "doc": "Environment 🌱",
+    "title": "FDM materials",
+    "content": "PETG . In the CONAI (Italian national packing material consortium) 2018 report (in Italian) of the “General program of prevention and management of packing materials and packing material waste”, PETG is listed within “not-selectable/recyclable packaging materials with the current state of technology”. This suggests that PETG is in general not recyclable with plastic. Milan, Italy (AMSA S.p.A.) . After inquiry, they reported that 3D printer PETG scraps can be disposed of together with plastic waste. […] . i filamenti in PETG possono essere conferiti nel sacco della plastica . […] . PLA . While PLA is “technically” bio-plastic and it is compostable, this does not imply that all the additives are also recyclable. Furthermore, bio materials recycling facilities work differently and use different technologies to speed up the natural biodegradation, so as always check with your local company. Milan, Italy (AMSA S.p.A.) . After inquiry, they reported that 3D printer PLA scraps should be disposed of with organic waste. […] . i residui derivanti da stampe 3D in materiale PLA (acido polilattico, ossia bioplastica ottenuta da scarti di mais) possono essere conferiti nel cassonetto dell’umido. ABS . ABS is technically recyclable. However, recycling companies may or may not be able to separate it from the other types of plastic. Therefore, you should check with your local company first before disposing of it. Milan, Italy (AMSA S.p.A.) . After inquiry, they reported that 3D printer ABS scraps must be disposed of together with non-recyclable waste: . […] . al contrario, quelli in ABS vanno smaltiti nel sacco dell’indifferenziato. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/environment/#fdm-materials",
+    "relUrl": "/wiki/environment/#fdm-materials"
+  },"15": {
+    "doc": "Environment 🌱",
+    "title": "DLP/SLA UV resins",
+    "content": "Important note . UV resins are often highly toxic and dangerous for the environment, also potentially carcinogen in their liquid form. Make sure you don’t rinse off any liquid resin in the sink or in the environment. Before disposing of resin residues, make sure they’re fully cured: use a UV lamp or leave them under the sun for a few days (but make sure they don’t fly away with the wind). The alcohol used for cleaning can be cured with a UV lamp and then reused. Tests by @Depau showed that both Elegoo’s curing (Mercury) and wash&amp;cure (Mercury Pro) machines aren’t powerful enough for it though. Other curing machines were not tested (I got the damn lamp). Cure it for a few minutes until it becomes white, stir and cure again, repeat until you see no difference after curing, then do it one last time. The residue will slowly drop to the bottom over a day and the remaining alcohol can be poured out, then filtered. The rest can be dried and disposed of. UV resins are thermoset and they are therefore generally not recyclable. Dispose of them with non-recyclable waste. Some bio-resins exist with claim to be biodegradable, though they often do not specify whether they’re also compostable (you can’t just assume they are; many materials are “technically” biodegradable, but they degrade in amounts of time that are too long for recycling facilities). Investigation is ongoing with popular bio-resin sellers on the time of decomposition of their products. Milan, Italy (AMSA S.p.A.) . After inquiry, the company reported that DLP/SLA UV resins must be disposed of as such: . | Solid, fully cured resin (in small amounts): non-recyclable bin | Liquid, uncured resin: it can be brought to one of their “ricicleria” centers in the original container. They will take care of it based on the toxycity level (“T” or “F”) reported on the label | . I residui di stampa in DLP e SLA, se in piccole quantità, possono essere smaltiti nel sacco dell’indifferenziato. Se la resina è ancora allo stato liquido, in ricicleria è possibile smaltire rifiuti e prodotti etichettati “T” e/o “F” nei loro contenitori originali dove si evidenziano i simboli di tossicità o pericolosità. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/environment/#dlpsla-uv-resins",
+    "relUrl": "/wiki/environment/#dlpsla-uv-resins"
+  },"16": {
+    "doc": "Environment 🌱",
+    "title": "Energy",
+    "content": "Even if you can afford a higher electricity bill, using more energy than needed is totally unnecessary and avoidable. When possible, avoid using particularly old laptops or desktop computers as always-on OctoPrint machines, they use quite a lot of power and may cost extra 50€/year or more on your bill. If you want something that stays always-on, consider using a recent (&gt; 2015) laptop or an ARM single-board computer. Or simply turn everything off when you’re not using it. (see: Devices for OctoPrint) . Avoid leaving the heated bed on when not needed, and if you can invest on an enclosure, get one: you’ll have a better time printing materials like ABS and you will reduce the amount of energy dissipated as heat in your room. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/environment/#energy",
+    "relUrl": "/wiki/environment/#energy"
+  },"17": {
+    "doc": "Environment 🌱",
+    "title": "Environment 🌱",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/environment/",
+    "relUrl": "/wiki/environment/"
+  },"18": {
+    "doc": "FDM motion systems",
+    "title": "FDM motion systems",
+    "content": "Cartesian (FDM) Cartesian is a direct, linear relationship between XY motor movement, and toolhead XY motion. Basically, Cartesian movements use individual motors for each axis. Move a single motor (eg, X), and the toolhead moves on the X axis only. As cartesian is a serial stackup, this can lead to some motors being pushed around by other motors. A few example of Cartesian motion systems are: . | “i3 style” - This is perhaps the most common enthusiast style Cartesian printer. Usually you’ll see these in Prusa i3 (hence the name), Creality CR6/CR10/Ender3 lines. Basically, the bed moves on the Y, while the toolhead controls the X and Z. | “quadrap/ultimaker style” - This is a box-style printer that often gets confused with CoreXY. A good example of these are Ultimaker printers, or the Creality Ender 5 line. These differ from i3-style printers as the bed often moves on the Z, or not at all, with the toolhead moving on X and Y. | . CoreXY (FDM) CoreXY uses a parallel manipulator system. In other words, the motors on a CoreXY system are stationary. In this case, the X and Y motors work together to move along one axis. CoreXY typically has much lower inertia, which allows for more rapid acceleration. The downside is belts are usually twice as long, and harder to tension. Delta (FDM) Delta 3D printers involve a circular print bed with a toolhead featuring three fixed triangular points. Each of these three points can move both upwards and downwards within the cylinder print structure, to be able to place the print head where it needs to be to print. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/fdm-motion-systems/",
+    "relUrl": "/wiki/technology/fdm-motion-systems/"
+  },"19": {
+    "doc": "FDM/FFF",
+    "title": "3D printers (FDM/FFF)",
+    "content": "Below is a non-exhaustive list of printers at various price points that are generally considered great for ther price. However, just because a printer isn’t listed here it doesn’t mean it’s bad. The printers listed below are FDM printers - i.e. they work with a spool of filament. If you’re interested in resin printers, see the resin printers page. Note: all measurements are in millimeters (mm). All prices are in USD$. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/fdm/#3d-printers-fdmfff",
+    "relUrl": "/wiki/printers/fdm/#3d-printers-fdmfff"
+  },"20": {
+    "doc": "FDM/FFF",
+    "title": "Under $200 USD",
+    "content": ". | Anet A8 [220 x 220 x 240 build] (i3 cartesian, $179) . | Note! The Anet A8 is known for having little to no safety features out of the box. If you wanna get one, we advise you replace the stock firmware AT THE VERY LEAST, optionally also replace the board and the power supply unit. | . | Anycubic Mega Zero [220 x 220 x 250 build] (i3 cartesian, $179) | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/fdm/#under-200-usd",
+    "relUrl": "/wiki/printers/fdm/#under-200-usd"
+  },"21": {
+    "doc": "FDM/FFF",
+    "title": "Under $300 USD",
+    "content": ". | Monoprice Maker Select Plus [200 x 200 x 180 build] (i3 cartesian, $249) | Creality Ender 3 V2 [220 x 220 x 250 build] (i3 cartesian, $269) | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/fdm/#under-300-usd",
+    "relUrl": "/wiki/printers/fdm/#under-300-usd"
+  },"22": {
+    "doc": "FDM/FFF",
+    "title": "Under $400 USD",
+    "content": ". | Prusa Mini [180 x 180 x 180 build] (i3 cartesian, $349) | Artillery Sidewinder X1 [300 x 300 x 400 build] (i3 cartesian, $379) | Anycubic Mega X [300 x 300 x 305 build] (i3 cartesian, $399) | Monoprice Voxel [150 x 150 x 150 build] (quadrap cartesian, $399) | Creality Ender 5 Pro [220 x 220 x 300 build] (quadrap cartesian, $399) | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/fdm/#under-400-usd",
+    "relUrl": "/wiki/printers/fdm/#under-400-usd"
+  },"23": {
+    "doc": "FDM/FFF",
+    "title": "Under $600 USD",
+    "content": ". | Creality CR-6 SE [235 x 235 x 250 build] (i3 cartesian, $429) | Creality CR-10 V3 [300 x 300 x 400 build] (i3 cartesian, $529) | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/fdm/#under-600-usd",
+    "relUrl": "/wiki/printers/fdm/#under-600-usd"
+  },"24": {
+    "doc": "FDM/FFF",
+    "title": "Under $800 USD",
+    "content": ". | Prusa i3 MK3S [250 x 210 x 210 build] (i3 cartesian, $749) | . Please add your models and a price estimate, no referral links (maybe a link to the manufacturer website, a review or the reprap.org page). ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/fdm/#under-800-usd",
+    "relUrl": "/wiki/printers/fdm/#under-800-usd"
+  },"25": {
+    "doc": "FDM/FFF",
+    "title": "FDM/FFF",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/fdm/",
+    "relUrl": "/wiki/printers/fdm/"
+  },"26": {
+    "doc": "File types",
+    "title": "File types",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/file-types/",
+    "relUrl": "/wiki/software/file-types/"
+  },"27": {
+    "doc": "File types",
+    "title": ".gcode",
+    "content": "A list of commands that can be processed by the 3D printer firmware., . This includes movement, heater and generic control commands such as homing, motors off, etc. Reference: . | Extensive RepRap G-Code commands list | G-Code commands accepted by Klipper | . CNC machines also use G-Code, but have a specialized set of commands that doesn’t apply to 3D printers (reference needed). ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/file-types/#gcode",
+    "relUrl": "/wiki/software/file-types/#gcode"
+  },"28": {
+    "doc": "File types",
+    "title": ".stl, .obj, others",
+    "content": "These are common 3D files. Before being sent to the 3D printer, these files need to be sliced. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/file-types/#stl-obj-others",
+    "relUrl": "/wiki/software/file-types/#stl-obj-others"
+  },"29": {
+    "doc": "File types",
+    "title": ".svg",
+    "content": "Scalable Vector Graphic is a format for… 2D vector graphics. They are commonly used by cutters and engravers. The fact that they’re vector-based (as opposed to being raster) means that they include the borders of all the shapes as lines, making computetions for the slicer much simpler. Graphically speaking vector images can be scaled indefinitely without loss of quality and they can contain precise measurements. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/file-types/#svg",
+    "relUrl": "/wiki/software/file-types/#svg"
+  },"30": {
+    "doc": "File types",
+    "title": ".photon, .photons",
+    "content": "A proprietary file format used by some DLP resin printers from Anycubic. It contains print settings such as layer exposure, bottom exposure, as well as the layer images and commands for the Z axis motor. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/file-types/#photon-photons",
+    "relUrl": "/wiki/software/file-types/#photon-photons"
+  },"31": {
+    "doc": "Firmware",
+    "title": "3D printer firmware",
+    "content": "Here is a non-exhaustive list of common firmware for 3D printer main boards. Just because a firmware isn’t listed here it doesn’t mean it isn’t good! . Check out the firmware category on the RepRap Wiki for a more extensive list. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/firmware/#3d-printer-firmware",
+    "relUrl": "/wiki/software/firmware/#3d-printer-firmware"
+  },"32": {
+    "doc": "Firmware",
+    "title": "Marlin",
+    "content": ". | License: open-source, GNU GPL v3.0 | Supported hardware: . | ATmega AVR (Arduino/RAMPS, Teensy, more) | ARM Cortex Mx (Arduino Due, STM32, Smoothieboard, SKR) | Xtensa (ESP32) | Linux | . | . Marlin is the most popular 3D printer firmware. It supports pretty much any feature you might be looking for, and is shipped as stock firmware by 3D printer manufacturers. Website - RepRap Wiki - Wikipedia - GitHub . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/firmware/#marlin",
+    "relUrl": "/wiki/software/firmware/#marlin"
+  },"33": {
+    "doc": "Firmware",
+    "title": "Repetier-Firmware",
+    "content": ". | License: open-source, GNU GPL v3.0 | Supported hardware: . | ATmega AVR (Arduino/RAMPS, Teensy, more) | . | . Repetier is also quite popular and sometimes shipped as stock firmware by manufacturers, however it is becoming less popular since many newer boards ship with more powerful 32-bit ARM microcontrollers. One of its distinctive features is the web-based configurator, with many presets and very well documented. It supports FDM 3D printers, laser engravers and CNC machines. Website - RepRap Wiki - GitHub . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/firmware/#repetier-firmware",
+    "relUrl": "/wiki/software/firmware/#repetier-firmware"
+  },"34": {
+    "doc": "Firmware",
+    "title": "Klipper",
+    "content": ". | License: open-source, GNU GPL v3.0 | Supported hardware: . | ATmega AVR (Arduino/RAMPS, Teensy, more) | ARM Cortex Mx (Arduino Due, STM32, Smoothieboard, SKR) | . | Host software: . | Linux only | . | . Klipper is a pretty unique firmware. It solves the problem of having to perform crazy optimizations to perform fast computations on slow microcontrollers by performing all the computations on a Linux machine. The 3D printer motherboard firmware is extremely simple, porting it to new hardware is very simple. The firmware is “dumb”, it doesn’t know how to operate a printer and it is only instructed how to safely shut it down in case of failure. All movements are precomputed and sent over by its Linux companion, Klippy. Klippy is written in Python, which allows the developer to focus on functionality and stability instead of having to constantly have to work around the microcontroller limitations. Klipper in fact uses proper kinematic equations instead of optimized versions, leveraging the better floating point arithmetic support in Python. This architecture allows notoriously resource-constrained boards, such as the RAMPS to run at up to 154 steps per second. On top of that, it allows for very simple configuration, advanced movement control and advanced configuration if desired. Klipper provides the best performance on all supported boards. It also supports more exotic configurations, such as multiple main boards controlling the same printer (for example, multiple Arduino Uno-based mini-RAMPS) and multiple LCD displays. Fancy features are also supported, such as a proper “pressure advance” algorithm, best in class “look ahead” support (due to in practice no RAM constraints), automatic or computer-assisted calibration for pretty much everything that needs calibration and, when paired with Trinamic drivers, it supports changing the configuration at runtime from OctoPrint, without the need to reflash the firmware. It deeply integrates with OctoPrint through a plug-in, you can both control the printer with OctoPrint and you can also control OctoPrint with the printer’s LCD. The same device that runs Klippy can also run OctoPrint. Website - RepRap Wiki - GitHub . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/firmware/#klipper",
+    "relUrl": "/wiki/software/firmware/#klipper"
+  },"35": {
+    "doc": "Firmware",
+    "title": "Firmware",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/firmware/",
+    "relUrl": "/wiki/software/firmware/"
+  },"36": {
+    "doc": "Hardware",
+    "title": "Hardware",
+    "content": "Visit the sub-pages to learn about different 3D printer hardware . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/",
+    "relUrl": "/wiki/hardware/"
+  },"37": {
+    "doc": "Home",
+    "title": "About this wiki",
+    "content": "This wiki aims to be a quick source of information for 3D printer users and in particular our Telegram group. It does not aim to replace or compete with other great sources of information such as RepRap.org or official documentation websites, but rather be a “quick instruction manual”/FAQ site for the questions that come up most frequently in our Telegram group. For all the details, links to more extensive documentations should be provided. We also provide a list of suggested printers for different price ranges. Note that if a printer is not listed it doesn’t necessarily mean it’s crap! Actually, we encourage users to add their own content, and note if a particular model has some well-known flaws (such as the automatic house ignition feature found in the Anet A8). We do not accept paid referral links on this website or in the printer lists. This is a place for finding information, no advertisements are allowed. ",
+    "url": "https://depau.github.io/3dprint-wiki/#about-this-wiki",
+    "relUrl": "/#about-this-wiki"
+  },"38": {
+    "doc": "Home",
+    "title": "Contributing content",
+    "content": "All pages are under the /wiki folder. You should check out the Kramdown Markdown reference and the Just the Docs documentation to learn how to write markdown pages that work well on the website. Markdown cheatsheet . # Title ## Section title ### Paragraph title #### Subparagraph title ↑ Titles go on their own line. Add a blank line after each title, and two (but at least one) before This is **bold**, *italic* and ~~strikethrough~~, while this is some short `code sample`. ```python A larger code sample can be enclosed within three backticks, like this. You can also set the programming language. ``` - this is - a bulleted list 1. this is 2. a numbered list [External link text](https://some.website) [Internal link text]({{ '/wiki/software/slicer' | absolute_url }}) ![External image description](https://some.site/picture.png) Icons from ForkAwesome: https://forkaweso.me/Fork-Awesome/icons/ Just paste the code from the icon page, for example: &lt;i class=\"fa fa-archlinux\" aria-hidden=\"true\"&gt;&lt;/i&gt; There's a shortcut for Wikipedia links: {% include wiki %} . Edit an existing page . Just open the page file on GitHub and click the “pencil” icon to edit it. On the website you will find a “Edit this page on GitHub” button around the bottom of the page. Creating a new page . In the wiki folder, click “Add file”, “Create new file”. The file name ends up in the URL: it should be something like page-name.md, the URL will be /wiki/page-name. Paste and adjust the following content at the beginning of the file to set the page layout and the title, then add the content after that. --- layout: page # Use page_nocomments for the main category page title: Page title toc: true # Or false, if you want to disable the Table of Contents #parent: Parent title if this is a sub-page, otherwise delete this line #has_children: true if this page has children, otherwise delete this line --- # Page title . Navigation . Adding new categories is not possible on the web-based GitHub interface. You need to use Git on your computer. If you need help you can ask @depauh in the Telegram group to create it for you. Documentation on the site navigation can be found here. Uploading pictures . To avoid making the repository overly big, just upload them to postimages.org . ",
+    "url": "https://depau.github.io/3dprint-wiki/#contributing-content",
+    "relUrl": "/#contributing-content"
+  },"39": {
+    "doc": "Home",
+    "title": "Testing the website on your computer",
+    "content": ". | Install Docker for Linux or macOS (it should work on Windows too but the command needs to be adapted) | Clone the Git repository to your computer | Run the website on your computer by running on the terminal: | . docker run --rm --volume=\"$PWD:/srv/jekyll\" -p 4000:4000 -it jekyll/jekyll jekyll serve . | The website will be available at localhost:4000 | . ",
+    "url": "https://depau.github.io/3dprint-wiki/#testing-the-website-on-your-computer",
+    "relUrl": "/#testing-the-website-on-your-computer"
+  },"40": {
+    "doc": "Home",
+    "title": "Home",
+    "content": "This wiki is a FAQ page for our 3D printing group: @Print3D_Group . Feel free to add pages or update content, edit the files on GitHub and send a pull request. The content is licenses under the Creative Commons CC0 license. ",
+    "url": "https://depau.github.io/3dprint-wiki/",
+    "relUrl": "/"
+  },"41": {
+    "doc": "Motherboard",
+    "title": "Motherboard",
+    "content": "the microcontroller and the stepper drivers are installed on this small board: they can communicate through the firmware. It is needed to translate the commands listed in a ‘.gcode’ file into movements . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/motherboard/",
+    "relUrl": "/wiki/hardware/motherboard/"
+  },"42": {
+    "doc": "Devices for OctoPrint",
+    "title": "Devices for OctoPrint",
+    "content": "In this page is a list of options for running OctoPrint for your printer. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/octoprint-devices/",
+    "relUrl": "/wiki/hardware/octoprint-devices/"
+  },"43": {
+    "doc": "Devices for OctoPrint",
+    "title": "Easiest option: Raspberry Pi",
+    "content": "The Raspberry Pi boards are the easiest option for OctoPrint since the developers provide OctoPi, a Raspberry Pi operating system that runs OctoPrint out of the box. If you don’t know a lot on how to use GNU/Linux and you’re not planning to learn, this is your best option. You need at least a Raspberry Pi 2 for decent performance, and a Raspberry Pi 3 or newer if you also want to run Klipper or you want Wi-Fi. Make sure you also get a good power supply (your phone’s charger is NOT good enough) and an enclosure with cooling, since it tends to get quite hot. However, if you know how to use Linux or you think you’re able to follow the manual installation guide, get something else. A list of issues found in Raspberry Pi 2 and 3 (I haven’t received a lot of feedback on the Raspberry Pi 4 yet): . | Unless you get a very good SD card, SD cards break fast. Prefer something with different storage types if available. | The Wi-Fi/Bluetooth module found in the Raspberry Pi 3 is terrible. It randomly crashes, disconnects, drops packets, making Wi-Fi access a lot slower than the maximum supported rate. | The USB ports in both models often die after a year or two if devices are constantly connected to them. | The Ethernet in both models is not native. There is in fact a Ethernet to USB 2.0 adatper in the board. Therefore, while they claim it supports 1Gbit speeds, it can only go up to 480Mbps (most realistically ~300Mbps) | Even if you get a good power supply, you will still likely run into power issues and the power supply won’t be able to provide enough power for the whole board and the connected devices. | The SoC (the CPU, basically) on the Raspberry Pi 3 tends to get extremely hot very fast, so if you don’t provide proper cooling, it will constantly throttle at 70°C. | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/octoprint-devices/#easiest-option-raspberry-pi",
+    "relUrl": "/wiki/hardware/octoprint-devices/#easiest-option-raspberry-pi"
+  },"44": {
+    "doc": "Devices for OctoPrint",
+    "title": "Recycle old hardware: NUC / old laptop / old desktop",
+    "content": "If you have old hardware laying around collecting dust, you can bring it back to life and use it as an OctoPrint machine. The biggest issue with this approach is the power usage. Older devices won’t draw less than 20W of power even while idle, while an ARM single board computer will often draw less than 5W. You save money on the hardware, but you’re gonna spend a lot more in electricity, depending on the rates in your area. Otherwise pretty much all hardware manufactured after 2008 will easily run both OctoPrint and Klipper at the same time, even Intel Atom-based netbooks (though it might be a bit slow). I suggest you install Ubuntu Server, Debian or Fedora Server (all free and open-source Linux distrubutions) on them, then install everything else you need. Do me a favor and do not use Windows or macOS: they notoriously use a lot more power than a bare-bones Linux server OS and you’ll spend even more in electricity. Also, while OctoPrint runs on all major OSs, if you also want to use Klipper it only runs on Linux. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/octoprint-devices/#recycle-old-hardware-nuc--old-laptop--old-desktop",
+    "relUrl": "/wiki/hardware/octoprint-devices/#recycle-old-hardware-nuc--old-laptop--old-desktop"
+  },"45": {
+    "doc": "Devices for OctoPrint",
+    "title": "Best choice: Other ARM single board computers",
+    "content": "There are boards similar to the Raspberry Pi that have comparable advantages (small, cheap, won’t double your electicity bill) despite not having the issues. However, unlike the Raspberry Pi, there are no pre-made operating systems with OctoPrint preinstalled, so you need to do it yourself (don’t worry, it’s easy). Here is a (not extensive) list of some of the available options: . | Orange Pi 4 - best board in 2020 (@depau’s opinion) . | Suggested option: $75 with power supply, 4GB RAM and 16GB integrated flash storage, passively cooled aluminum case, cheaper options available | Other cases are available online at $10 or less, with heatsinks and a fan | It also supports the SD card and there’s a cheaper SD card-only model without internal storage | Built-in Wi-Fi, Bluetooth, gigabit Ethernet and 2 USB 3.0 ports (one is Type-C) | . | Rock64 . | Suggested option: $45 with 4GB of RAM, cheaper options available | Power adapter needs to be purchased separately, $7 | It works with the SD card but you can also buy a 16GB flash storage module for $16 | It runs very well even without additional cooling | It has no Wi-Fi/Bluetooth, it only has gigabit Ethernet | One USB 3.0 port | . | RockPro64 . | More expensive and with the same hardware as the Orange Pi 4 | Suggested option: $80 with 4GB of RAM | Power adapter needs to be purchased separately, $7 | It works with the SD card but you can also buy a 16GB flash storage module for $16 | You absolutely need a case with a fan and a heatsink | Wi-Fi+Bluetooth adapter needs to be purchased separately | . | . If you know other good SBCs, please contribute other options. Make sure they are: . | Stable | Provide a good power supply | If they need cooling, please state that | Powerful enough to run both OctoPrint and Klipper at the same time | Not a scam | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/octoprint-devices/#best-choice-other-arm-single-board-computers",
+    "relUrl": "/wiki/hardware/octoprint-devices/#best-choice-other-arm-single-board-computers"
+  },"46": {
+    "doc": "Other resources",
+    "title": "Other resources",
+    "content": "Here you can find a list of other trustworthy websites and resources you should check out if you want to get started with 3D printing. | RepRap Wiki . | RepRap is a community project dedicated to projecting 3D printers that can replicate themselves to the highest extent. It also includes a lot of documentation on 3D printers, firmwares, G-Code and much more. | . | Our Telegram Group . | We talk about anything about 3D printing and 3D printers, with 2000+ members very friendly to beginners and ready to provide advice and feedback. | . | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/other-resource/",
+    "relUrl": "/wiki/other-resource/"
+  },"47": {
+    "doc": "3D printers",
+    "title": "3D printers",
+    "content": "Visit the sub-pages to see a list of printers of different types. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/",
+    "relUrl": "/wiki/printers/"
+  },"48": {
+    "doc": "Resin",
+    "title": "3D printers (Resin)",
+    "content": "Below is a non-exhaustive list of printers at various price points that are generally considered great for ther price. Just because a printer isn’t listed here it doesn’t mean it’s bad. The printers listed below are resin printers. If you’re interested in FDM printers, see the FDM printers page. Note: all measurements are in millimeters (mm). All prices are in USD$. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/resin/#3d-printers-resin",
+    "relUrl": "/wiki/printers/resin/#3d-printers-resin"
+  },"49": {
+    "doc": "Resin",
+    "title": "Under $200 USD",
+    "content": ". | Anycubic Photon [115 x 65 x 115 build] (resin LCD, $169) | Anycubic Photon Zero [97 x 54 x 150 build] (resin LCD, $169) | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/resin/#under-200-usd",
+    "relUrl": "/wiki/printers/resin/#under-200-usd"
+  },"50": {
+    "doc": "Resin",
+    "title": "Under $300 USD",
+    "content": ". | Elegoo Mars [120 x 68 x 155 build] (resin LCD, $239) | Elegoo Mars Pro [129 x 80 x 160 build] (resin LCD, $268) | Anycubic Photon Mono [130 x 80 x 165 build] (resin monochrome LCD, $249) | Anycubic Photon S [115 x 65 x 165 build] (resin LCD, $299) | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/resin/#under-300-usd",
+    "relUrl": "/wiki/printers/resin/#under-300-usd"
+  },"51": {
+    "doc": "Resin",
+    "title": "Under $400 USD",
+    "content": ". | Elegoo Saturn [192 x 120 x 200 build] (resin LCD, $400) | . Please add your models and a price estimate, no referral links (maybe a link to the manufacturer website, a review or the reprap.org page). ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/resin/#under-400-usd",
+    "relUrl": "/wiki/printers/resin/#under-400-usd"
+  },"52": {
+    "doc": "Resin",
+    "title": "Resin",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/printers/resin/",
+    "relUrl": "/wiki/printers/resin/"
+  },"53": {
+    "doc": "Slicers",
+    "title": "Slicers",
+    "content": "“Slicer” is the generical name for the softwares used to convert a 3D model to a “.gcode” file. The most common slicers are listed below: . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/slicer/",
+    "relUrl": "/wiki/software/slicer/"
+  },"54": {
+    "doc": "Slicers",
+    "title": "FDM/FFF",
+    "content": "Ultimaker Cura . License: open-source, GNU LGPL v3.0 . It has been one of the most common for a long time, because of the control it can provide. It ships with default configurations for most kits and preassembled printers. Most slicers now include the same or even more features, while Cura requires a lot more system resources and runs very slow on mid-end computers. https://ultimaker.com/software/ultimaker-cura . Slic3r . License: open-source, GNU AGPL v3.0 . Slic3r is the father of a lot of now-more-popular knock-off slicers listed below. While it started with many experimental features, Slic3r is currently one of the most robust and stable slicers in existence. Maintainers have tough requirements to guard against regressions and bad code quality, which prompted people who want to live on the edge to maintain their fork with more experimental features. On top of being one of the most accurate slicers and (opinion mine) the slicer that produces the best bridges, Slic3r is very fast: the UI is snappy even on slow hardware and the slicing leverages multi-threading where available. It claims to support DLP/SLA, though in my experience its support is extremely basic and pretty much unusable. https://slic3r.org/ . Prusa Slicer . License: open-source, GNU AGPL v3.0 (Slic3r fork) . Even though it is developed by Prusa Research for their lineup of 3D printers, Prusa Slicer can also be used with other printer manufacturers. Prusa doesn’t list a detailed set of additional features on top of Slic3r: roughly the changes go from a UI revamp to a rewrite of all the Perl code to C++. It is quite stable and resource usage is comparable to Slic3r. It supports DLP printers (since Prusa Research also makes DLPs). However, it is not comparable with dedicated DLP slicers. https://www.prusa3d.com/prusaslicer/ . SuperSlicer . License: open-source, GNU AGPL v3.0 (Slic3r fork) . Yet another Slic3r fork, previously known as Slic3r++, SuperSlicer is a fork of Prusa Slicer, which in turn is a fork of Slic3r. SuperSlicer includes all improvements made by Prusa, plus a set of additional experimental changes. While it is not resource-intensive, it includes a lot of changes that haven’t been properly reviewed/tested. It can be thought of Slic3r but with experimental cool features. Additional changes include all Prusa Slicer changes + top surface ironing, allegedly better thin walls, overhangs and brims. In my experience it is pretty much usable, albeit having some regressions in the infill code in complex models. https://github.com/supermerill/SuperSlicer/ . Simplify3D . License: proprietary, paid ($149 at the time of writing) . A good slicer, but (opinion) not worth the price considering the excellent free and open-source alternatives. All other slicers have the same features, the only reason why one would buy it is to get their customer support. https://www.simplify3d.com/ . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/slicer/#fdmfff",
+    "relUrl": "/wiki/software/slicer/#fdmfff"
+  },"55": {
+    "doc": "Slicers",
+    "title": "DLP",
+    "content": "Slic3r, Prusa Slicer and SuperSlicer . See above. They work best for FDM printers, but they also support DLP/SLA. ChituBox . License: proprietary, freeware (requires signing up to their website to download it) . This is the most common slicer used for SLA technology. It offers advanced features and settings, presets for many preassembled printers. https://www.chitubox.com/ . Anycubic Photon Workshop (using Wine: ) . License: proprietary, freeware . Developed by Anycubic for Anycubic products, it is your only option if your printer only accepts the newer Photon S file format which is not supported by ChituBox. It is an okay slicer, it does its job but it’s not the best one out there. https://www.anycubic.com/ . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/slicer/#dlp",
+    "relUrl": "/wiki/software/slicer/#dlp"
+  },"56": {
+    "doc": "Software",
+    "title": "Software",
+    "content": "Visit the sub-pages to learn about different 3D printer software . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/software/",
+    "relUrl": "/wiki/software/"
+  },"57": {
+    "doc": "Stepper drivers",
+    "title": "Stepper drivers",
+    "content": "The small controllers called ‘stepper drivers’ are installed on the motherboard. This particular controller manages the input current and feeds the output to the motor in the right way; so the driver can manage the full-step and the micro-step of the motor and let it afford the precision usually needed from it. The most common drivers that can be found on a 3D printer are listed below: . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/stepper-drivers/",
+    "relUrl": "/wiki/hardware/stepper-drivers/"
+  },"58": {
+    "doc": "Stepper drivers",
+    "title": "A4988 (Pololu)",
+    "content": "The most common driver, can be found on the majority of chinese kits. Used since the beginning of 3D printing and the RepRap project, it also gave name to the RAMPS board (RepRap Arduino Mega Pololu Shield). They offer the baseline performance. ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/stepper-drivers/#a4988-pololu",
+    "relUrl": "/wiki/hardware/stepper-drivers/#a4988-pololu"
+  },"59": {
+    "doc": "Stepper drivers",
+    "title": "DRV8825",
+    "content": "You don’t want this driver for your printer. [note by Depau: can you explain why?] . Usually more expensive than Pololus, the DRV8825 drivers offer a wider range of microstep capabilities and are allegedly quieter (they’re actually not). ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/stepper-drivers/#drv8825",
+    "relUrl": "/wiki/hardware/stepper-drivers/#drv8825"
+  },"60": {
+    "doc": "Stepper drivers",
+    "title": "LV8729",
+    "content": "This driver may run better than a4988, but worse than a TMC, it is often used for the feeder stepper motor. [Depau: but why do they?] . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/stepper-drivers/#lv8729",
+    "relUrl": "/wiki/hardware/stepper-drivers/#lv8729"
+  },"61": {
+    "doc": "Stepper drivers",
+    "title": "Trinamic-based (TMCxxxx)",
+    "content": "This kind of stepper driver is often researched because of the high control and current it can provide to the stepper motor, resulting in precision and torque. Extra proprietary functionality is provided by these drivers, but not all of them support all features. Here is a translation from “sales people English” to “normal people English” for the most common Trinamic features: . | StealtChop: “Quiet mode”, the motors run extremely quietly at low-ish speeds, while still providing very good torque. | SpreadCycle: “Noisier mode”, the motors are noisier but they provide higher torque. Usually appropriate for higher speeds to prevent skipping steps. | StallGuard: Motor stall detection (sensorless homing). The driver can act as an endstop by pulling a pin low when a stall is detected. It needs tuning. | CoolStep: The motor current is adjusted dynamically based on feedback from the “StallGuard” circuitry, allowing cooler motor operation when the motor requires less torque. | MicroPlyer: Fancy name for their proprietary micro-stepping circuitry. | . Some drivers are allegedly resistant to shorts, in case you happen to work with screwdrivers nearby while your hands are shaking. The parameters for the features above can be configured using the additional UART, SPI or I²C configuration protocol (depending on the driver model). For example, you can tune the speed threshold at which the driver goes from StealtChop to SpreadCycle, as well as minimum/maximum current values for each mode (CoolStep) . When used as a drop-in replacement for a Pololu driver, a TMC driver comes with a set of default thresholds that will mostly work for most printers. A trim-potentiometer is also provided like in regular steppers, and if enabled in the driver settings (it’s usually enabled out of the box), the current can be tuned with the classic ceramic screwdriver. However, when configured over UART or SPI, they offer advanced functionality. The trim-port can also be disabled in order to tune the current more precisely, programmatically. UART/SPI configuration is usually performed externally with additional hardware and software. However, some boards like the SKR 1.3 and 1.4 have the internal wiring to allow for configuration through the firmware. The STALL pin (for StallGuard/sensorless homing) is also internally connected to the respective endstop pin. This is why the board manual suggests to clip it off if you’re not planning to use the feature. TMC2130 . Maybe a little outdated, but these were the first Trinamic driver with StallGuard support. | SPI configuration | StealtChop | SpreadCycle | StallGuard / Stall detection / Sensorless homing | Phase current: 1.2A (QFN36 package), 1.4A (eTQFP48 package) | Motor supply: 4.75V to 46V | Snallest microstep: 1/256 | . TMC2208 . This driver doesn’t support StallGuard, but can support more current tham TMC2130, so more current can be given to the stepper motor, being useful in SpreadCycle mode. | UART configuration | StealtChop | SpreadCycle | StallGuard not supported | MicroPlyer | Phase current: 1.4A | Motor supply: 4.75V to 36V | Snallest microstep: 1/256 | . TMC2209 . The last generation of Trinamic drivers: supports StallGuard and SpreadCycle modes. | UART configuration | StallGuard / Stall detection / Sensorless homing | StealtChop | SpreadCycle | MicroPlyer | Phase current: 2.0A | Motor supply: 4.75V to 29V | Snallest microstep: 1/256 | . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/hardware/stepper-drivers/#trinamic-based-tmcxxxx",
+    "relUrl": "/wiki/hardware/stepper-drivers/#trinamic-based-tmcxxxx"
+  },"62": {
+    "doc": "Technologies",
+    "title": "3D printer technologies",
+    "content": "Visit the sub-pages to learn about different 3D printer types and motion systems . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/#3d-printer-technologies",
+    "relUrl": "/wiki/technology/#3d-printer-technologies"
+  },"63": {
+    "doc": "Technologies",
+    "title": "Technologies",
+    "content": " ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/technology/",
+    "relUrl": "/wiki/technology/"
+  },"64": {
+    "doc": "Troubleshooting",
+    "title": "Troubleshooting",
+    "content": "Visit the sub-pages to learn about common 3D printing issues . ",
+    "url": "https://depau.github.io/3dprint-wiki/wiki/troubleshooting/",
+    "relUrl": "/wiki/troubleshooting/"
+  }
+}
